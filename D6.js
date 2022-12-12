@@ -102,10 +102,7 @@ console.log(esercizio5);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const es6 = -100;
-function check3and7(n) {}
-const esercizio6 = check3and7(es6);
-console.log(esercizio6);
+
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
@@ -124,7 +121,7 @@ console.log(esercizio7);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const es8 = `stringa da fare xose to upper case`;
+const es8 = `stringa al quale convertire la prima lettera in upperCase`;
 const stringaDivisa = es8.split(" ");
 
 function upperFirst(n) {
@@ -132,7 +129,7 @@ function upperFirst(n) {
     stringaDivisa[i] =
       stringaDivisa[i][0].toUpperCase() + stringaDivisa[i].substring(1);
   }
-  return stringaDivisa;
+  return stringaDivisa.join(" ");
 }
 const esercizio8 = upperFirst(es8);
 console.log(esercizio8);
