@@ -178,10 +178,9 @@ let rn = esercizio10;
 /* SCRIVI QUI LA TUA RISPOSTA */
 function giveMeRandom(n) {
   for (let n = 0; n < NumeroRandom.length; n++) {
-    let NumeroRandom,
-      [n] = [];
-    return NumeroRandom.push(Math.floor(Math.random() * 110));
+    NumeroRandom[n].push(Math.floor(Math.random() * 110));
+    let NumeroRandom = [];
   }
 }
-let es10 = giveMeRandom(rn);
+let es10 = giveMeRandom();
 console.log(es10);
